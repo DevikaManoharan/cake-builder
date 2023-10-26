@@ -33,7 +33,14 @@ let total=0;
   else{
     Chocolate.style.display="none";
     Chocobill.style.display = 'none';
-    selectedArr.pop("Chocolate");
+   // selectedArr.pop("Chocolate");
+      let indexToRemove=0
+    for (let delIndex=0;delIndex<selectedArr.length;delIndex++){
+      if(selectedArr[delIndex]==='Chocolate'){	
+        indexToRemove = delIndex;
+      }
+      }
+      selectedArr.splice(indexToRemove, 1);
 
   }
   totalprice(selectedArr);
@@ -50,7 +57,14 @@ function strawBtn(){
   else{
     Strawberry.style.display="none";
     Strawberrybill.style.display = 'none';
-    selectedArr.pop("Strawberry");
+    //selectedArr.pop("Strawberry");
+    let indexToRemove=0
+    for (let delIndex=0;delIndex<selectedArr.length;delIndex++){
+      if(selectedArr[delIndex]==='Strawberry'){	
+        indexToRemove = delIndex;
+      }
+      }
+      selectedArr.splice(indexToRemove, 1);
 
   }
   totalprice(selectedArr);
@@ -66,7 +80,14 @@ function butterBtn(){
   else{
     Butterscotch.style.display="none";
     Butterscotchbill.style.display="none";
-    selectedArr.pop("Butterscotch");
+    //selectedArr.pop("Butterscotch");
+    let indexToRemove=0
+    for (let delIndex=0;delIndex<selectedArr.length;delIndex++){
+      if(selectedArr[delIndex]==='Butterscotch'){	
+        indexToRemove = delIndex;
+      }
+      }
+      selectedArr.splice(indexToRemove, 1);
   }
   totalprice(selectedArr);
 }
@@ -81,7 +102,14 @@ function vannilBtn(){
   else{
     Vannila.style.display="none";
     vannilabill.style.display="none";
-    selectedArr.pop("Vannila");
+    //selectedArr.pop("Vannila");
+    let indexToRemove=0
+    for (let delIndex=0;delIndex<selectedArr.length;delIndex++){
+      if(selectedArr[delIndex]==='Vannila'){	
+        indexToRemove = delIndex;
+      }
+      }
+      selectedArr.splice(indexToRemove, 1);
   }
   totalprice(selectedArr);
 }
@@ -96,7 +124,14 @@ function redvelBtn(){
   else{
     Redvelvet.style.display="none";
     redvelvetbill.style.display="none";
-    selectedArr.pop("Redvelvet");
+    //selectedArr.pop("Redvelvet");
+    let indexToRemove=0
+    for (let delIndex=0;delIndex<selectedArr.length;delIndex++){
+      if(selectedArr[delIndex]==='Redvelvet'){	
+        indexToRemove = delIndex;
+      }
+      }
+      selectedArr.splice(indexToRemove, 1);
   }
   totalprice(selectedArr);
 }
