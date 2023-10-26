@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="column1" style="background-color: rgb(84, 28, 9)">
+        <div id="cakeimg">
+          <a
+            ><img src="./assets/cake.png" alt="cake" width="10%" height="10%"
+          /></a>
+        </div></div>
+      <div class="column2" style="background-color: rgb(187, 122, 188)">
+        
+
+        <div id="price">
+          <img src="./assets/list_template.png" alt="price" />
+          <div class="menu">
+            <span>PRICES</span> <br /><br />
+            <p>Chocolate.........300</p>
+            <p>Starwberry........100</p>
+            <p>Butterscotch......200</p>
+            <p>Vannila..............250</p>
+            <p>Redvelvet.........350</p>
+          </div>
+        </div>
+        
+        <div id="cake">
+          <div class="layer buy"id="candle" style="display: none"> <img
+              src="./assets/candle.png"
+              alt="candle" width= "50px" height="50px"
+               /></div>
+          <div class="layer redvel" id="layer5" style="display: none"></div>
+          <div class="layer vannilafav" id="layer4" style="display: none"></div>
+          <div class="layer butter" id="layer3" style="display: none"></div>
+          <div class="layer berry" id="layer2" style="display: none"></div>
+          <div class="layer choco" id="layer1" style="display: none"></div>
+          </div>
+        <div id="bill">
+          <a><img src="./assets/list_template.png" alt="Bill"/></a>
+          <div class="billing">
+            <span>Bill</span>
+            <div class="bill amount" id="chocolate" style="display: none">Chocolate.........300</div>
+            <div class="bill amount" id="strawberry" style="display: none">Strawberry........100</div>
+            <div class="bill amount" id="butterscotch" style="display: none">Butterscotch......200</div>
+            <div class="bill amount" id="vannila" style="display: none">Vannila..............250</div>
+            <div class="bill amount" id="redvelvet" style="display: none">Redvelvet.........350</div>
+            <div id="total" style="background-color: rgb(229, 198, 76)">total: $total</div>
+          </div>
+        </div>
+      </div>
+      <div class="column3" style="background-color: rgb(84, 28, 9)">
+        <div class="buttons">
+          <button class="chocolatebtn" onclick="chocoBtn()">Chocolate</button>
+          <button class="strawberrybtn" onclick="strawBtn()">Strawberry</button>
+          <button class="butterscotchbtn" onclick="butterBtn()">Butterscotch</button>
+          <button class="vannilabtn" onclick="vannilBtn()">Vannila</button>
+          <button class="redvelvetbtn" onclick="redvelBtn()">Redvelvet</button>
+          <button class="buybtn" onclick="buyBtn()" style="background-color: green">Buy</button>
+        </div>
+      </div>
+    </div>
+    </body>
+  <script src="./script.js"></script>
+</html>

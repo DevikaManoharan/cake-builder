@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  flex-direction: column;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+.column1 {
+  height: 20%;
+  width: 100%;
+  align-self: center;
+  right: 40%;
+}
+.column2 {
+  height: 60%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+#cakeimg{
+  margin-left: 900px;
+  align-items: center;
+  margin-top: 30px;
+}
+#price{
+  display: flex;
+  align-content: flex-start;
+  margin: 10px;
+}
+ .menu {
+  text-align: center;
+  font-size: larger;
+  position: absolute;
+  color: #035847;
+  top: 390px;
+  left: 65px;
+}
+#cake{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+.choco{
+  background-color: saddlebrown;
+}
+.berry{
+  background-color: red;
+}
+.butter{
+  background-color: moccasin;
+}
+.vannilafav{
+  background-color: rgb(246, 244, 241);
+}
+.redvel{
+  background-color: indianred;
+}
+.layer{
+  height: 40px;
+    border-radius: 10px 10px 0 0;
+    z-index: 1;
+}
+  
+.billing {
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  color: #035847;
+  top: 390px;
+  right: 60px;
+  text-align: center;
+  display: block;
+ 
+}
+
+.column3 {
+  height: 20%;
+  width: 100%;
+}
+.buttons {
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-style: normal;
+  font-size: 16px;
+  border-radius: 40px;
+  box-sizing: border-box;
+  padding: 15px 34px;
+  cursor: pointer;
+ }
+.buttons button {
+  padding: 15px;
+  cursor: pointer;
+  background-color:rgb(187, 122, 188);
+  box-shadow: 0px 0px 15px rgb(121, 116, 116);
+  border-radius: 10px;
+  width: 160px;
+  height: 50px;
+}
+
+#layer1 {
+  width: 245px;
+  visibility: visible;
+}
+
+#layer2 {
+  width: 200px;
+  left: 40px;
+  visibility: visible;
+}
+
+#layer3 {
+  width: 160px;
+  left: 60px;
+  visibility: visible;
+}
+
+#layer4 {
+  width: 120px;
+  left: 80px;
+  visibility: visible;
+}
+
+#layer5 {
+  width: 80px;
+  left: 100px;
+  visibility: visible;
+}
+#candle{
+  left: 850px;
+  visibility: visible;
+  
+}
+
+/* Fill your code*/
